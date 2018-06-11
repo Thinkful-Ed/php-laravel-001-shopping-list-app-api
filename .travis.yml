@@ -1,0 +1,16 @@
+language: php
+
+php:
+  - 7.2
+
+env:
+  DB=postgres
+
+before_script:
+  - cp .env.travis .env
+  - composer self-update
+  - composer install --no-interaction
+  - php artisan key:generate
+
+script:
+  - vendor/bin/phpunit
