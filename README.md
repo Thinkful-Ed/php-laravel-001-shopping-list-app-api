@@ -49,7 +49,9 @@ php artisan serve
 ```
 
 ## Live Server
-This application is running live on [Heroku](https://list-ful.herokuapp.com/).
+A full-stack version of the application is live on [Heroku](https://list-ful.herokuapp.com/).
+
+You can also find an API-only version live on Heroku at the following [link](https://list-ful-api.herokuapp.com/api/items).
 
 # End Points
 
